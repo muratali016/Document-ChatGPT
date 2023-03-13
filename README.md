@@ -31,4 +31,4 @@ This project is licensed under the Apache License - see the LICENSE file for det
 * PyPDF2 for PDF extraction.
 * pyperclip for clipboard integration.
 #### Feedback
-If you have any feedback or suggestions, please feel free to create an issue or contact me directly.
+If you have any feedback or suggestions, please feel free to create an issue
