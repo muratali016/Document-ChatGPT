@@ -1,4 +1,8 @@
-https://user-images.githubusercontent.com/77502485/224747862-6d7a0eae-0229-4cae-8f0a-cb196467bdb0.mp4
+
+
+https://user-images.githubusercontent.com/77502485/224752468-443176ce-eabb-413d-9f76-82206aeb7ef1.mp4
+
+
 
 ## Chatgpt-text-summarizer tkinter app
 This is a text summarization app that uses OpenAI's GPT-3 language model to generate a summary of a given text. It's a Tkinter GUI application that can also extract text from PDF files and the clipboard.
