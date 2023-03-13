@@ -7,7 +7,7 @@ import time
 import pyperclip
 from tkinter.ttk import Progressbar
 
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY"
 
 
 def extract_text(filepath, progress_var):
