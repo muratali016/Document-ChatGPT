@@ -1,0 +1,2 @@
+# Chatgpt-text-summarizer
+summarizer
