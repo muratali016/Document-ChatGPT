@@ -38,6 +38,7 @@ This is a text summarization app that uses OpenAI's GPT-3 language model to gene
 This project is licensed under the Apache License - see the LICENSE file for details.
 
 ### Credits
+* https://github.com/jerryjliu/llama_index
 * OpenAI for providing the GPT-3 language model.
 * PyPDF2 for PDF extraction.
 * pyperclip for clipboard integration.
