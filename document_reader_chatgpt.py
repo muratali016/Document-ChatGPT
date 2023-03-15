@@ -3,7 +3,7 @@ from tkinter import filedialog
 from llama_index import GPTSimpleVectorIndex, SimpleDirectoryReader
 import os
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'Your API key'
 
 class MyApp(tk.Frame):
     def __init__(self, master=None):
