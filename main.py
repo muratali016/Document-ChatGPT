@@ -14,23 +14,23 @@ def extract_text(filepath, progress_var):
     # Open the PDF file in read-binary mode
     with open(filepath, 'rb') as pdf_file:
         # Create a PDF reader object
-        pdf_reader = PyPDF2.PdfFileReader(pdf_file)
+        pdf_reader = PyPDF2.PdfReader(pdf_file)
 
         # Create an empty string to store the text
         text = ''
 
         # Loop through each page in the PDF file
-        for page_num in range(pdf_reader.getNumPages()):
+        for page_num in range(len(pdf_reader.pages)):
             # Update the progress bar
             progress_var.set(page_num + 1)
             root.update_idletasks()
             root.update()
 
             # Get the page object
-            page_obj = pdf_reader.getPage(page_num)
+            page_obj = pdf_reader.pages[page_num]
 
             # Extract the text from the page
-            page_text = page_obj.extractText()
+            page_text = page_obj.extract_text()
 
             # Add the text to the string
             text += page_text
